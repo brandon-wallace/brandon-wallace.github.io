@@ -130,7 +130,7 @@ main {
 }
 
 .writings__links li a:hover {
-    color: cornflowerblue;
+    color: #063FD2;
 }
 
 .link-icon {
@@ -161,7 +161,7 @@ main {
 
 .project__content {
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-animation-name: fadeIn;
@@ -206,7 +206,7 @@ main {
     max-height: 300px;
     position: relative;
     background-color: #000000;
-    border: 3px solid #5A0000;
+    border: 6px solid #5A0000;
 }
 
 .project__image img {
