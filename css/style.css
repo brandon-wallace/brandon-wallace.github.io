@@ -2,18 +2,21 @@
     font-family: 'TapeFont';
     src: url('../fonts/TapeFont.otf') format('opentype'),
          url('../fonts/TapeFont.woff') format('woff');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Barlow-Thin';
     src: url('../fonts/Barlow-Thin.otf') format('opentype'),
          url('../fonts/Barlow-Thin.woff') format('woff');
+    font-display: fallback;
 }
 
 @font-face {
     font-family: 'Barlow-SemiBold';
     src: url('../fonts/Barlow-SemiBold.otf') format('opentype'),
          url('../fonts/Barlow-SemiBold.woff') format('woff');
+    font-display: fallback;
 }
 
 html,
