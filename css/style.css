@@ -19,6 +19,10 @@
     font-display: fallback;
 }
 
+:root {
+    --theme-color: hsl(0, 0%, 9%);
+}
+
 html,
 body {
     width: 100%;
@@ -49,11 +53,11 @@ main {
 .left {
     color: #FFFFFF;
     max-width: 850px;
-    background-color: hsl(240, 100%, 27%);
+    background-color: var(--theme-color, hsl(0, 0%, 9%));
 }
 
 .right {
-    color: hsl(240, 100%, 27%);
+    color: var(--theme-color, hsl(0, 0%, 9%));
 }
 
 .header__name {
@@ -209,7 +213,8 @@ main {
     max-height: 300px;
     position: relative;
     background-color: #000000;
-    border: 6px solid  hsl(240, 100%, 27%);
+    border: 6px solid hsl(0, 0%, 9%);
+    border: 6px solid var(--theme-color, hsl(0, 0%, 9%));
 }
 
 .project__image img {
@@ -302,8 +307,8 @@ main {
     margin: 0;
     font-size: 3.5rem;
     text-align: center;
-    color: hsl(240, 100%, 27%);
     font-family: 'TapeFont', Arial;
+    color: var(--theme-color, hsl(0, 0%, 9%));
 }
 
 .contact__logo {
@@ -315,7 +320,7 @@ main {
 }
 
 .contact__info {
-    color: hsl(240, 100%, 27%);
+    color: var(--theme-color, hsl(0, 0%, 9%));
     padding: 1em 0;
     font-size: .9rem;
     text-align: center;
@@ -348,7 +353,7 @@ main {
 }
 
 .contact__icon .fab {
-    color: hsl(240, 100%, 27%);
+    color: var(--theme-color, hsl(0, 0%, 9%));
 }
 
 .contact__icon .fab:hover {
@@ -357,7 +362,7 @@ main {
 
 .contact__icon-label {
     margin: 0;
-    color: hsl(240, 100%, 27%);
+    color: var(--theme-color, hsl(0, 0%, 9%));
     font-size: 1rem;
     font-family: 'Barlow-SemiBold';
 }
@@ -365,7 +370,7 @@ main {
 .contact__links {
     cursor: pointer;
     text-decoration: none;
-    color: hsl(240, 100%, 27%);
+    color: var(--theme-color, hsl(0, 0%, 9%));
 }
 
 .contact__links:hover {
@@ -381,7 +386,7 @@ form {
 }
 
 form label {
-    color: hsl(240, 100%, 27%);
+    color: var(--theme-color, hsl(0, 0%, 9%));
 }
 
 input[type="text"],
@@ -393,7 +398,7 @@ textarea {
     font-family: 'Barlow-SemiBold';
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border: 4px solid hsl(240, 100%, 27%);
+    border: 4px solid var(--theme-color, hsl(0, 0%, 9%));
     background-color: hsl(100, 100%, 100%);
 }
 
@@ -419,14 +424,14 @@ textarea {
     font-weight: bold;
     font-size: 1.2rem;
     letter-spacing: 3px;
-    border: 4px solid hsl(240, 100%, 27%);
-    background-color: hsl(240, 100%, 27%);
+    border: 4px solid var(--theme-color, hsl(0, 0%, 9%));
+    background-color: var(--theme-color, hsl(0, 0%, 9%));
     font-family: 'Barlow-SemiBold';
 }
 
 .form-button:hover {
-    color: hsl(240, 100%, 27%);
-    border: 4px solid hsl(240, 100%, 27%);
+    color: var(--theme-color, hsl(0, 0%, 9%));
+    border: 4px solid var(--theme-color, hsl(0, 0%, 9%));
     background-color: #FFFFFF;
 }
 
@@ -451,14 +456,14 @@ textarea {
     text-decoration: none;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    color: hsl(240, 100%, 27%);
+    color: var(--theme-color, hsl(0, 0%, 9%));
     background-color: #FFFFFF;
-    border: 4px solid hsl(240, 100%, 27%);
+    border: 4px solid var(--theme-color, hsl(0, 0%, 9%));
 }
 
 .donate__bttn:hover {
     color: #FFFFFF;
-    background-color: hsl(240, 100%, 27%);
+    background-color: var(--theme-color, hsl(0, 0%, 9%));
 }
 
 @media only screen and (min-width: 550px) {
