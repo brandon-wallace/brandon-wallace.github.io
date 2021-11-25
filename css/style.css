@@ -466,6 +466,21 @@ textarea {
     background-color: var(--theme-color, hsl(0, 0%, 9%));
 }
 
+.form__success {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Barlow-SemiBold', monospace;
+}
+
+.form__success__link {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    color: hsl(0, 0%, 9%);
+    text-decoration: underline;
+    font-family: 'Barlow-SemiBold', monospace;
+}
+
 @media only screen and (min-width: 550px) {
     .header__name {
         font-size: 9rem;
