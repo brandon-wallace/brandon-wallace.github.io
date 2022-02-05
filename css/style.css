@@ -56,8 +56,8 @@ header,
  */
 @-webkit-keyframes slide-in-from-left {
   0% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
     opacity: 0;
   }
   100% {
@@ -69,8 +69,8 @@ header,
 
 @keyframes slide-in-from-left {
   0% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
     opacity: 0;
   }
   100% {
